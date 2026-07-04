@@ -1,4 +1,13 @@
 window.sr = ScrollReveal();
+
+	sr.reveal('#fechaInicio', {
+		duration: 3500, //tiempo
+		delay:2400,
+		origin: 'bottom', //origen
+		distance: '300px' //distancia
+
+
+	}); 
 	sr.reveal('.boletos', {
 		duration: 3500, //tiempo
 		delay:1000,
